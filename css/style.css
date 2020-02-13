@@ -5,12 +5,44 @@ body {
     width: 100%;
     font-family: 'Open sans', sans-serif;
     color: white;
-    background: url(front_page_PNG.png) no-repeat center center fixed;
+    background: url(front_page_PNG.png) center fixed;
     -webkit-background-size: cover;
 }
 
-.navbar.toggler {
-    background-color: transparent;
+.nav.navbar-nav.nav-left li.active a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-style: bold;
+}
+
+.nav.navbar-nav.nav-left li a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-style: bold;
+}
+
+.navbar-toggler {
+    color: white;
+}
+
+.nav.navbar-nav.ml-auto li.active a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-style: bold;
+}
+
+.nav.navbar-nav.ml-auto li a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-style: bold;
 }
 
 
