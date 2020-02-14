@@ -1,15 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Raleway&display=swap');
 html,
 body {
-    height: 100%;
-    width: 100%;
     font-family: 'Open sans', sans-serif;
     color: white;
-    background: url(front_page_PNG.png) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    object-fit: cover;
+    background-image: url(front_page_PNG.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 .navbar-brand {
@@ -74,7 +72,34 @@ body {
     font-size: 16px;
     font-style: bold;
     margin-top: 0.3em;
+}
+
+.col-md-16.col-lg-5 h2 {
+    font-size: 70px;
+    font-family: "Open Sans", sans-serif;
+    font-style: bold;
+    margin-left: 2em;
+    margin-top: 2em;
+    font-weight: 1000;
+}
+
+.col-md-16.col-lg-5 p {
+    font-family: "Open Sans", sans-serif;
+    font-style: bold;
+    margin-left: 9.5em;
+    margin-top: 2em;
+    font-size: 15px;
+}
+
+.btn.btn-primary {
+    margin-left: 9em;
+    margin-top: 4em;
+    background-color: rgb(255, 89, 105);
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
     font-weight: 900;
+    border-radius: 0.5em;
+    padding: 1em 2em;
 }
 
 
