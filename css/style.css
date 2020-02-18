@@ -110,7 +110,7 @@ body {
 }
 
 .page input[type="radio"]:checked {
-    margin-left: -8%;
+    margin-left: 0%;
     background-color: #0043ff;
     top: 12.5px;
     height: 20px;
@@ -164,6 +164,37 @@ body {
         font-style: bold;
         margin-top: 0.3em;
     }
+    .page {
+        float: center botoom;
+        border-radius: 5px;
+        margin-top: 4%;
+        margin-left: 15%;
+    }
+    
+    .page input[type="radio"]:checked {
+        margin-left: 0%;
+        background-color: #0043ff;
+        top: 12.5px;
+        height: 20px;
+        width: 20px;
+        border: 5px solid #f7bb07;
+    }
+    
+    .page input[type="radio"] {
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        display: inline-block;
+        background-color: #4677ff;
+        top: 10px;
+        height: 15px;
+        width: 15px;
+        border: 0;
+        border-radius: 100%;
+        cursor: pointer;
+        margin-right: 1%;
+        outline: none;
+    }
 }
 
 @media (max-width: 992px) {
@@ -195,6 +226,37 @@ body {
         font-style: bold;
         margin-top: 0.3em;
     }
+    .page {
+        float: center botoom;
+        border-radius: 5px;
+        margin-top: 4%;
+        margin-left: 20%;
+    }
+    
+    .page input[type="radio"]:checked {
+        margin-left: 0%;
+        background-color: #0043ff;
+        top: 12.5px;
+        height: 20px;
+        width: 20px;
+        border: 5px solid #f7bb07;
+    }
+    
+    .page input[type="radio"] {
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        display: inline-block;
+        background-color: #4677ff;
+        top: 10px;
+        height: 15px;
+        width: 15px;
+        border: 0;
+        border-radius: 100%;
+        cursor: pointer;
+        margin-right: 1%;
+        outline: none;
+    }
     @media (max-width: 768px) {
         .nav.navbar-nav.ml-auto li.active a {
             display: inline-block;
@@ -223,6 +285,37 @@ body {
             font-size: 16px;
             font-style: bold;
             margin-top: 0.3em;
+        }
+        .page {
+            float: center botoom;
+            border-radius: 5px;
+            margin-top: 4%;
+            margin-left: 22%;
+        }
+        
+        .page input[type="radio"]:checked {
+            margin-left: 0%;
+            background-color: #0043ff;
+            top: 12.5px;
+            height: 20px;
+            width: 20px;
+            border: 5px solid #f7bb07;
+        }
+        
+        .page input[type="radio"] {
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+            display: inline-block;
+            background-color: #4677ff;
+            top: 10px;
+            height: 15px;
+            width: 15px;
+            border: 0;
+            border-radius: 100%;
+            cursor: pointer;
+            margin-right: 1%;
+            outline: none;
         }
     }
     @media (max-width: 576px) {
@@ -254,16 +347,47 @@ body {
             font-style: bold;
             margin-top: 0.3em;
         }
+        .page {
+            float: center botoom;
+            border-radius: 5px;
+            margin-top: 4%;
+            margin-left: 33%;
+        }
+        
+        .page input[type="radio"]:checked {
+            margin-left: 0%;
+            background-color: #0043ff;
+            top: 12.5px;
+            height: 20px;
+            width: 20px;
+            border: 5px solid #f7bb07;
+        }
+        
+        .page input[type="radio"] {
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+            display: inline-block;
+            background-color: #4677ff;
+            top: 10px;
+            height: 15px;
+            width: 15px;
+            border: 0;
+            border-radius: 100%;
+            cursor: pointer;
+            margin-right: 1%;
+            outline: none;
+        }
     }
     @media all and (max-width:768px) {
         .nav.navbar-nav.ml-auto li.active a {
-            margin: 6em auto;
+            margin: 0.1em auto;
         }
         .nav.navbar-nav.nav-left li.active a {
-            margin: 6em auto;
+            margin: 0.1em auto;
             border-bottom: auto;
         }
         .nav.navbar-nav.nav-left li a {
-            margin: 6em auto;
+            margin: 0.1em auto;
         }
     }
